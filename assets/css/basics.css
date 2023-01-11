@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+
+input[type='datetime-local']{
+
+    background-color: transparent;
+    padding: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 18px;
+    border-style: outset;
+    outline: none;
+    border-radius: 10px;
+    
+    
+}
+
+input::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    
+    
+}
+
+
+p {
+    border-color: white;
+    
+}
+
+
