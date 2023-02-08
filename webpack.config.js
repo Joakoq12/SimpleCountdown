@@ -7,7 +7,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: ['./src/index.js', './src/assets/javascript/background.js'],
+    entry: ['./src/index.js'],
     output: {
         filename: '[name].[contenthash].js',
         path: path.resolve(__dirname, "dist"),
